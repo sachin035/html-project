@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input project practise</title>
+  </head>
+  <style>
+
+    form{
+        background-color:rgb(252, 247, 247) ;
+       text-align: center;
+       width: 700px;
+       margin-left:auto;
+       margin-right: auto;
+       border: 2px solid rgb(252, 247, 247);
+    }
+    #form-heading{
+        Font Size: 32px;
+        Padding-Top: 56px;
+        Padding-Bottom: 32px;
+    }
+
+    #social-wrapper{
+        background-color:rgb(94, 91, 91);
+        padding: 24px;
+    }
+    .social-icon{
+
+        Width: 50px;
+        Height: 50px;
+        Padding-Top : 16px;
+        Padding-Bottom : 16px;
+        Padding-Left: 32px;
+        Padding-Right:32px;
+    }
+    .input-box{
+        background-color:rgb(252, 247, 247) ;
+        font-size: 18px;
+        padding-bottom: 12px;
+        margin-bottom: 36px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        width:100%;
+
+    }
+    .input{
+        Padding-Top: 80px;
+        Padding-Bottom: 40px;
+        Padding-Left: 80px;
+        Padding-Right:80px;
+    }
+    #btn-submit{
+        Background-Color: #0a0a0a;
+        Padding-Top: 12px;
+        Padding-Bottom:12px;
+        Padding-Left: 24px;
+        Padding-Right:24px;
+        Font-Size: 18px;
+        Color: white;
+        Border:none;
+    }
+  </style>
+  <body>
+    <form>
+      <h1 id="form-heading">Register</h1>
+      <div id="social-wrapper">
+        <img
+          class="social-icon"
+          src="http://pluspng.com/img-png/google-logo-png-open-2000.png"
+          alt="Google logo"
+        />
+        <img
+          class="social-icon"
+          src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png"
+          alt="Facebook logo"
+        />
+        <img
+          class="social-icon"
+          src="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg"
+          alt="Github logo"
+        />
+        <img
+          class="social-icon"
+          src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"
+          alt="linkedin logo"
+        />
+      </div>
+      <div class="input">
+        <input
+          class="input-box"
+          type="text"
+          name="username"
+          placeholder="Username"
+          required
+        />
+
+        <input
+          class="input-box"
+          type="text"
+          name="email"
+          placeholder="Email"
+          required
+        />
+
+        <input
+          class="input-box"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+
+        <input
+          class="input-box"
+          type="password"
+          name=" confirm-password"
+          placeholder="Confirm Password"
+          required
+        />
+      </div>
+
+      <input id="btn-submit" type="submit" value="Register" />
+    </form>
+  </body>
+</html>
